@@ -1,12 +1,16 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+url = "https://mirrors.aliyun.com/pypi/simple"
 verify_ssl = true
 
 [dev-packages]
 
 [packages]
 nltk = "*"
+sklearn = "*"
+chardet = "*"
+beautifulsoup4 = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"
